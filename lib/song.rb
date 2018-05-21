@@ -52,7 +52,7 @@ class Song
   def self.alphabetical
     alpha =  self.all.sort { |a, b| a <=> b }
     alpha
-    binding.pry
+    
   end 
 
   def save
