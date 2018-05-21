@@ -1,4 +1,4 @@
-Require 'pry'
+require 'pry'
 class Song
   attr_accessor :name, :artist_name
   @@all = []
